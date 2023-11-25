@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:opsz@6..12&family=Ruda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:opsz@6..12&family=Quattrocento:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 1728px;
+  height: 6080px;
+  border: 2px solid yellow;
+  background-color: black;
+  box-sizing: border-box;
+  
+}
+header {
+  width: 1728px;
+  height: 111px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 333px;
+  height: 51px;
+  margin-left: 20px;
+  /* background-color:yellow; */
+  align-items: center;
+}
+.logo h1 {
+  color: white;
+  font-family: "Ruda", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: 1.74px;
+  text-align: center;
+  padding-top: 10px;
+}
+.nav_links {
+  list-style: none;
+  display: flex;
+}
+.nav_links li a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Ruda", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  /* display: inline-block; */
+}
+.icons {
+  color: white;
+  margin: 56px;
+}
+.icons i {
+  padding: 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.big_img {
+  /* position: ABSOLUTE; */
+  width: 1728px;
+  height: 1006px;
+  background-image: url(Rectangle\ 2.png), url(pizza1\ 1.png),
+    url(wood-2045380_1920\ 1.png);
+}
+.m_heading {
+  width: 902px;
+  height: 215px;
+  flex-shrink: 0;
+  margin-top: 140px;
+  /* background-color: aqua; */
+  margin-left: 10px;
+  /* position: absolute; */
+}
+.m_heading h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Quattrocento", sans-serif;
+  font-size: 101px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 108.5px;
+  letter-spacing: 9.09px;
+}
+.redline {
+  width: 586px;
+  height: 13px;
+  flex-shrink: 0;
+  background: #f24c4c;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 78px;
+  margin-left: 109px;
+}
+.para {
+  width: 599px;
+  height: 325px;
+  flex-shrink: 0;
+  /* background-color: antiquewhite; */
+  margin-top: 67px;
+  margin-left: 109px;
+}
+.para p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 160% */
+  letter-spacing: 2.25px;
+}
+.about {
+  color: #fff;
+  text-align: center;
+  font-family: 'Quattrocento',sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+  margin-top: 99px;
+ 
+}
+.red_line {
+  width: 526px;
+  height: 10px;
+  flex-shrink: 0;
+  background-color: #f24c4c;
+  margin-top: 15px;
+  
+}
