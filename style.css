@@ -10,15 +10,16 @@ body {
   border: 2px solid yellow;
   background-color: black;
   box-sizing: border-box;
-  
+  position: relative;
 }
 header {
   width: 1728px;
   height: 111px;
-  /* background-color: blue; */
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 .logo {
@@ -58,9 +59,9 @@ header {
 .icons i {
   padding: 15px;
 }
-main{
-    display: flex;
-    flex-direction: column;
+main {
+  display: flex;
+  flex-direction: column;
 }
 .big_img {
   /* position: ABSOLUTE; */
@@ -92,7 +93,7 @@ main{
   width: 586px;
   height: 13px;
   flex-shrink: 0;
-  background: #f24c4c;
+  background: #b62828;
   box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
   margin-top: 78px;
   margin-left: 109px;
@@ -117,19 +118,293 @@ main{
 .about {
   color: #fff;
   text-align: center;
-  font-family: 'Quattrocento',sans-serif;
+  font-family: "Quattrocento", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: 0px; /* 0% */
   margin-top: 99px;
- 
 }
+
 .red_line {
   width: 526px;
   height: 10px;
   flex-shrink: 0;
-  background-color: #f24c4c;
-  margin-top: 15px;
-  
+  background: #b62828;
+  margin-top: 40px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+}
+.rline {
+  width: 535px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #b62828;
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.25);
+
+  margin-top: 36px;
+  margin-bottom: 13px;
+}
+.div1 {
+  display: flex;
+  /* background-color: yellow; */
+  margin-top: 69px;
+}
+.para2 {
+  width: 677px;
+  height: 420px;
+  flex-shrink: 0;
+  margin-left: 193px;
+}
+.para2 p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 160% */
+  letter-spacing: 2.25px;
+}
+.img1 {
+  width: 631px;
+  height: 506px;
+  margin-left: 79px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 74.48%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.red_line2 {
+  width: 474px;
+  height: 9px;
+  flex-shrink: 0;
+  background: #b62828;
+  margin-top: 40px;
+}
+.para3 {
+  width: 1315px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-top: 57px;
+  margin-left: 212px;
+}
+.para3 p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 160% */
+  letter-spacing: 2.25px;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #f2c94c; */
+  margin-top: 116px;
+}
+.mini_div {
+  display: flex;
+  margin-left: 193px;
+  margin-top: 61px;
+}
+.food_info {
+  display: flex;
+
+  /* background-color: #f2c94c; */
+}
+.min_img1 {
+  width: 273.083px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.min_para1 {
+  margin-left: 20px;
+  /* background-color: aqua; */
+}
+.min_para1 .piz_name {
+  width: 348px;
+  height: 51px;
+  /* background-color: #b62828; */
+}
+.piz_name p {
+  color: #f2c94c;
+  font-family: Ruda;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+}
+.min_para1 .para4 {
+  width: 346px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.para4 p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 1.8px;
+}
+.food_info2 {
+  display: flex;
+  margin-left: 49px;
+
+  /* background-color: #f2c94c; */
+}
+.about1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Quattrocento", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px; /* 0% */
+  margin-top: 166px;
+}
+.carousel {
+  width: 1614px;
+  height: 638px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #f2c94c; */
+  margin-left: 58px;
+  margin-right: 36px;
+  margin-top: 57px;
+}
+.img2 {
+  margin-left: 58px;
+  margin-right: 36px;
+}
+.img2 img {
+  width: 1334px;
+  height: 638px;
+  flex-shrink: 0;
+}
+.eclip {
+  width: 100vw;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+}
+.images {
+  display: flex;
+  width: 1334px;
+  height: 613px;
+  flex-shrink: 0;
+  margin-left: 225px;
+  margin-top: 57px;
+}
+.box1 {
+  width: 786px;
+  height: 613px;
+  flex-shrink: 0;
+  /* background-color: #f2c94c; */
+}
+.box1 img {
+  width: 786px;
+  height: 613px;
+  border-radius: 10px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
+.box2 .img21 {
+  width: 274px;
+  height: 200px;
+  flex-shrink: 0;
+  margin-bottom: 13px;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
+.box3 .img31 {
+  width: 274px;
+  height: 302px;
+  margin-bottom: 5px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.div3 {
+  display: flex;
+  margin-left: 193px;
+  width: 1345px;
+  height: 438px;
+  /* background-color: #f2c94c; */
+  margin-top: 57px;
+}
+.div31 {
+  display: flex;
+  flex-direction: column;
+}
+.para5 {
+  width: 640px;
+  height: 181px;
+}
+.para5 {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 160% */
+  letter-spacing: 2.25px;
+}
+.location {
+  display: flex;
+}
+
+.location p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 1.8px;
+  padding: 20px;
+}
+.call {
+  display: flex;
+}
+
+.call p {
+  color: #fff;
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 200% */
+  letter-spacing: 1.8px;
+  padding: 20px;
+}
+.foot{
+  display: flex;
+  justify-content: space-around;
+  position:absolute;
+  bottom: 0px; 
+
+  background-color: #f2c94c;
+}
+.last{
+  padding-left: 130px;
+}
+#cal{
+  right: 0px;
 }
